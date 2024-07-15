@@ -1250,6 +1250,10 @@ html {
   pointer-events: auto;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .static {
   position: static;
 }
@@ -1306,6 +1310,18 @@ html {
 
 .top-1\/2 {
   top: 50%;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-8 {
+  right: 2rem;
+}
+
+.top-6 {
+  top: 1.5rem;
 }
 
 .z-20 {
@@ -1457,8 +1473,16 @@ html {
   height: auto;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .max-h-screen {
   max-height: 100vh;
+}
+
+.max-h-\[600px\] {
+  max-height: 600px;
 }
 
 .min-h-screen {
@@ -1509,6 +1533,10 @@ html {
   width: 100%;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -1523,6 +1551,10 @@ html {
 
 .max-w-xl {
   max-width: 36rem;
+}
+
+.max-w-\[800px\] {
+  max-width: 800px;
 }
 
 .shrink-0 {
@@ -1736,6 +1768,10 @@ html {
   background-color: rgb(254 252 232 / var(--tw-bg-opacity));
 }
 
+.bg-black\/70 {
+  background-color: rgb(0 0 0 / 0.7);
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1773,6 +1809,11 @@ html {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .px-0 {
@@ -1965,6 +2006,11 @@ html {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
