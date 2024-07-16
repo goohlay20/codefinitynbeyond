@@ -5,8 +5,8 @@ function sendMail() {
       message: document.getElementById("message").value,
     };
   
-    const serviceID = "service_n1ydzfq";
-    const templateID = "template_8kmeu0e";
+    const serviceID = "service_yjt2m9j";
+    const templateID = "codefinity_email";
   
       emailjs.send(serviceID, templateID, params)
       .then(res=>{
@@ -17,6 +17,8 @@ function sendMail() {
           alert("Your message sent successfully!!")
   
       })
-      .catch(err=>console.log(err));
+      .catch(err=>
+        alert(`The server encounter some issues: ${err}. Try again later`)
+      );
   
   }
